@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+  <header>
+    <h1>Home</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <p>Welcome to the site. This page covers some key web development terms and demonstrates working with images.</p>
+
+    <h2>Key Terms</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Term</th>
+          <th>Definition</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Deprecated</td>
+          <td>A feature or element that is outdated and no longer recommended for use, though it may still work.</td>
+        </tr>
+        <tr>
+          <td>Responsive Design</td>
+          <td>An approach to web design that makes pages render well on a variety of devices and window or screen sizes.</td>
+        </tr>
+        <tr>
+          <td>User Experience</td>
+          <td>The overall experience a person has when interacting with a website, including ease of use and satisfaction.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Working With Images</h2>
+    <div class="image-compare">
+      <figure>
+        <img src="media/scene.png" alt="Illustrated landscape scene, PNG version" width="250">
+        <figcaption>scene.png</figcaption>
+      </figure>
+      <figure>
+        <img src="media/scene.jpg" alt="Illustrated landscape scene, JPG version" width="250">
+        <figcaption>scene.jpg</figcaption>
+      </figure>
+    </div>
+    <p>
+      The PNG version of this image is about 5.6&nbsp;KB, while the JPG version is about 16&nbsp;KB &mdash;
+      larger, not smaller. That's because this graphic is made mostly of flat, solid-colored shapes
+      (hills, trees, a sun) with a smooth sky gradient. PNG's lossless compression handles large areas of
+      solid color very efficiently, while JPG's compression works by breaking the image into blocks and
+      approximating color transitions, which adds overhead on a gradient like the sky and can introduce
+      subtle blocky artifacts. Visually, the JPG looks very close to the PNG, but if you zoom in on the sky
+      gradient you can see slight discoloration and softness that isn't present in the crisper PNG version.
+    </p>
+
+    <figure>
+      <img src="media/shapes.jpg" alt="Abstract geometric shapes: a circle, triangle, and square" width="250" class="bordered-image">
+      <figcaption>A simple abstract composition of overlapping geometric shapes.</figcaption>
+    </figure>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 My Website. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
